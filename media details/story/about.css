@@ -1,0 +1,155 @@
+.parent {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    text-align: center;
+    color:#643293;
+    background-color:#F3E4FF;
+    padding: 10px;
+    border-color: #643293;
+    text-decoration: none;
+}
+
+h1 {
+    color: #643293;
+    font-size: 40px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.child {
+    text-decoration: none;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.profile {
+    display: grid;
+    grid-template-columns: auto auto;
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: rgb(153, 137, 176);
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+  a:link {
+    background-color: transparent;
+    text-decoration: none;}
+
+  img, h1, h2, h3, h4, h5, h6, p {
+    max-width:70%;
+    height:auto; 
+      /* Magic! */
+    max-width: 40vw;
+    }
+
+    h1, h2, h3, h4, h5, h6, p {
+      max-height: fit-content;
+      max-height: 100%;
+      font-family: 'Valera Round', sans-serif;
+    }
+
+    .news2, .news3, .news1, .kamiyama, .dazzlinglight, .memories, .art1, .art2, .art3, .mov1, .mov2, .mov3, .story1, .story2, .story3, .song1, .song2, .song3 {
+      display: grid;
+      grid-template-columns: 45% 55%;
+      font-size: 20px;
+      margin-top: 10px;
+      font-family: 'Varela Round', sans-serif;
+    }
+    
+    .kamiyama, .dazzlinglight, .memories {
+        grid-template-columns: 30% 70%;
+    }
+
+    body{
+      background-color:#FFF0FD;
+    }
+
+    .wa{
+      width: 300px;
+      height: auto;
+      margin: 30px;
+    }
+
+    .song1, .song2, .song3 {
+      grid-template-columns: 35% 65%;
+    }
+
+/* .content {
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 20% 30% 50%;
+  padding-left: 10px;
+} */
+
+.content {
+  font-size: 17px;
+}
+
+.text {
+  padding-left: 22px;
+  font-size: 15px;
+}
+
+.cp {
+  height: auto;
+  width: 333px;
+  margin: 20px;
+}
+
+.iimg {
+    height: auto;
+    width: 300px;
+    margin: 10px;
+    padding-left: 20px;
+}
+
+.button {
+  color: aliceblue;
+}
+
+
+table, tr, td, th {
+  border: #643293 solid 1px;
+}
+
+.btn{
+  color: black;
+}
+
